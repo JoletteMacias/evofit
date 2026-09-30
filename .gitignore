@@ -1,0 +1,38 @@
+# Dependencias
+node_modules/
+
+# Compilación
+dist/
+www/
+build/
+.angular/
+frontend/android/
+frontend/ios/
+*.apk
+*.aab
+
+# Pruebas y cobertura
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datos locales de Docker
+infra/data/
